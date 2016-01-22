@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F276EFD51C52EB7700E70984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F276EFD41C52EB7700E70984 /* main.m */; };
+		F276EFD81C52EB7700E70984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F276EFD71C52EB7700E70984 /* AppDelegate.m */; };
+		F276EFDB1C52EB7700E70984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F276EFDA1C52EB7700E70984 /* ViewController.m */; };
+		F276EFDE1C52EB7700E70984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F276EFDC1C52EB7700E70984 /* Main.storyboard */; };
+		F276EFE01C52EB7700E70984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F276EFDF1C52EB7700E70984 /* Assets.xcassets */; };
+		F276EFE31C52EB7700E70984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F276EFE11C52EB7700E70984 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F276EFD01C52EB7700E70984 /* CheckInternetConn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckInternetConn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F276EFD41C52EB7700E70984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F276EFD61C52EB7700E70984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F276EFD71C52EB7700E70984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F276EFD91C52EB7700E70984 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F276EFDA1C52EB7700E70984 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F276EFDD1C52EB7700E70984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F276EFDF1C52EB7700E70984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F276EFE21C52EB7700E70984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F276EFE41C52EB7700E70984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F276EFCD1C52EB7700E70984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F276EFC71C52EB7700E70984 = {
+			isa = PBXGroup;
+			children = (
+				F276EFD21C52EB7700E70984 /* CheckInternetConn */,
+				F276EFD11C52EB7700E70984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F276EFD11C52EB7700E70984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F276EFD01C52EB7700E70984 /* CheckInternetConn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F276EFD21C52EB7700E70984 /* CheckInternetConn */ = {
+			isa = PBXGroup;
+			children = (
+				F276EFD61C52EB7700E70984 /* AppDelegate.h */,
+				F276EFD71C52EB7700E70984 /* AppDelegate.m */,
+				F276EFD91C52EB7700E70984 /* ViewController.h */,
+				F276EFDA1C52EB7700E70984 /* ViewController.m */,
+				F276EFDC1C52EB7700E70984 /* Main.storyboard */,
+				F276EFDF1C52EB7700E70984 /* Assets.xcassets */,
+				F276EFE11C52EB7700E70984 /* LaunchScreen.storyboard */,
+				F276EFE41C52EB7700E70984 /* Info.plist */,
+				F276EFD31C52EB7700E70984 /* Supporting Files */,
+			);
+			path = CheckInternetConn;
+			sourceTree = "<group>";
+		};
+		F276EFD31C52EB7700E70984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F276EFD41C52EB7700E70984 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F276EFCF1C52EB7700E70984 /* CheckInternetConn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F276EFE71C52EB7700E70984 /* Build configuration list for PBXNativeTarget "CheckInternetConn" */;
+			buildPhases = (
+				F276EFCC1C52EB7700E70984 /* Sources */,
+				F276EFCD1C52EB7700E70984 /* Frameworks */,
+				F276EFCE1C52EB7700E70984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckInternetConn;
+			productName = CheckInternetConn;
+			productReference = F276EFD01C52EB7700E70984 /* CheckInternetConn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F276EFC81C52EB7700E70984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Galileo Guzman";
+				TargetAttributes = {
+					F276EFCF1C52EB7700E70984 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F276EFCB1C52EB7700E70984 /* Build configuration list for PBXProject "CheckInternetConn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F276EFC71C52EB7700E70984;
+			productRefGroup = F276EFD11C52EB7700E70984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F276EFCF1C52EB7700E70984 /* CheckInternetConn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F276EFCE1C52EB7700E70984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F276EFE31C52EB7700E70984 /* LaunchScreen.storyboard in Resources */,
+				F276EFE01C52EB7700E70984 /* Assets.xcassets in Resources */,
+				F276EFDE1C52EB7700E70984 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F276EFCC1C52EB7700E70984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F276EFDB1C52EB7700E70984 /* ViewController.m in Sources */,
+				F276EFD81C52EB7700E70984 /* AppDelegate.m in Sources */,
+				F276EFD51C52EB7700E70984 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F276EFDC1C52EB7700E70984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F276EFDD1C52EB7700E70984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F276EFE11C52EB7700E70984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F276EFE21C52EB7700E70984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F276EFE51C52EB7700E70984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F276EFE61C52EB7700E70984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F276EFE81C52EB7700E70984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckInternetConn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galileoguzman.CheckInternetConn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F276EFE91C52EB7700E70984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckInternetConn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galileoguzman.CheckInternetConn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F276EFCB1C52EB7700E70984 /* Build configuration list for PBXProject "CheckInternetConn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F276EFE51C52EB7700E70984 /* Debug */,
+				F276EFE61C52EB7700E70984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F276EFE71C52EB7700E70984 /* Build configuration list for PBXNativeTarget "CheckInternetConn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F276EFE81C52EB7700E70984 /* Debug */,
+				F276EFE91C52EB7700E70984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F276EFC81C52EB7700E70984 /* Project object */;
+}
