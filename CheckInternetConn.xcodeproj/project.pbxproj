@@ -13,6 +13,8 @@
 		F276EFDE1C52EB7700E70984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F276EFDC1C52EB7700E70984 /* Main.storyboard */; };
 		F276EFE01C52EB7700E70984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F276EFDF1C52EB7700E70984 /* Assets.xcassets */; };
 		F276EFE31C52EB7700E70984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F276EFE11C52EB7700E70984 /* LaunchScreen.storyboard */; };
+		F276EFEF1C52EC5500E70984 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F276EFEE1C52EC5500E70984 /* Reachability.m */; };
+		F276EFF11C52EC9500E70984 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F276EFF01C52EC9500E70984 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		F276EFDF1C52EB7700E70984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F276EFE21C52EB7700E70984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F276EFE41C52EB7700E70984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F276EFED1C52EC5500E70984 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
+		F276EFEE1C52EC5500E70984 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
+		F276EFF01C52EC9500E70984 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F276EFF11C52EC9500E70984 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,10 +64,10 @@
 		F276EFD21C52EB7700E70984 /* CheckInternetConn */ = {
 			isa = PBXGroup;
 			children = (
-				F276EFD61C52EB7700E70984 /* AppDelegate.h */,
-				F276EFD71C52EB7700E70984 /* AppDelegate.m */,
-				F276EFD91C52EB7700E70984 /* Home.h */,
-				F276EFDA1C52EB7700E70984 /* Home.m */,
+				F276EFF21C52EC9900E70984 /* Frameworks */,
+				F276EFEC1C52EC0500E70984 /* Controllers */,
+				F276EFEB1C52EBFF00E70984 /* Main */,
+				F276EFEA1C52EBF500E70984 /* Reachability */,
 				F276EFDC1C52EB7700E70984 /* Main.storyboard */,
 				F276EFDF1C52EB7700E70984 /* Assets.xcassets */,
 				F276EFE11C52EB7700E70984 /* LaunchScreen.storyboard */,
@@ -77,6 +83,41 @@
 				F276EFD41C52EB7700E70984 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F276EFEA1C52EBF500E70984 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F276EFED1C52EC5500E70984 /* Reachability.h */,
+				F276EFEE1C52EC5500E70984 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F276EFEB1C52EBFF00E70984 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F276EFD61C52EB7700E70984 /* AppDelegate.h */,
+				F276EFD71C52EB7700E70984 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F276EFEC1C52EC0500E70984 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F276EFD91C52EB7700E70984 /* Home.h */,
+				F276EFDA1C52EB7700E70984 /* Home.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F276EFF21C52EC9900E70984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F276EFF01C52EC9500E70984 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +192,7 @@
 			files = (
 				F276EFDB1C52EB7700E70984 /* Home.m in Sources */,
 				F276EFD81C52EB7700E70984 /* AppDelegate.m in Sources */,
+				F276EFEF1C52EC5500E70984 /* Reachability.m in Sources */,
 				F276EFD51C52EB7700E70984 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
