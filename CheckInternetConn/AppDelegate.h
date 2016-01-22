@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Reachability.h"
+
+#define stHost      @"https://smartplace.mx"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
